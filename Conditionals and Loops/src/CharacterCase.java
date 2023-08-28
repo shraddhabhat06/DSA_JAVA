@@ -13,11 +13,11 @@ public class CharacterCase {
     Scanner sc = new Scanner(System.in);
     char ch;
     System.out.println("Enter any character: ");
-    ch=sc.next().charAt(0);
+    ch=sc.next().trim().charAt(0);
     int a= ch;
-    if(a>=65 && a<=90){
+    if(a>='A' && a<='Z'){
       System.out.print("1");
-    }else if(a>=97 && a<=122){
+    }else if(a>='a' && a<='z'){
        System.out.print("0");
     }else{
       System.out.print("-1");
