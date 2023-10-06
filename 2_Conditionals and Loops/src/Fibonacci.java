@@ -14,7 +14,7 @@ public class Fibonacci
     int b=1;
     int flag=2;
     System.out.print(a+" "+b+" ");
-    while(flag<=n){
+    while(flag<n){
       int temp= b;
       b=b+a;
       a=temp;
